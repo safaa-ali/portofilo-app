@@ -48,30 +48,6 @@ h1,h2,h3,h4,h5,h6,p,a,span,li{
 
 
 
-  .spinner:before {
-    content: '';
-    box-sizing: border-box;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    width: 45px;
-    height: 45px;
-      border-radius: 50%;
-    border: 1px solid #575757;
-    border-top-color: #ffffff;
-    animation: spinner .9s linear infinite;
-  }
-
-  @keyframes spinner {
-    to {transform: rotate(360deg);}
-  }
-
-  .btn-primary:hover{
-      color: #82ae46;
-  }
-.view-details:hover{
-color: #fff;
-}
 
 /*---------------------------------------*/
 .padd{
@@ -108,9 +84,9 @@ width: 80%;
 
 .header-li  .header-li-link{
     position: relative;
-    bottom: 24px;
+    bottom: 18px;
     background: #ec5b53;
-    padding: 16px 10px;
+    padding: 12px 10px;
     color: #fff;
     border-radius: 5px;
    text-transform: capitalize;
@@ -121,7 +97,7 @@ width: 80%;
 
 }
  .header-li  .header-li-link:hover{
-background-color:#002d5b;
+background-color:#ff3d1c;
 
  }
 .navbar-brand{
@@ -191,7 +167,7 @@ margin-left: 100px;
     border-radius: 5px;
    text-transform: capitalize;
    text-decoration: none;
-   width: 60%;
+   width: 80%;
    transition: 1s;
    font-weight: 500;
 }
@@ -224,7 +200,7 @@ margin-left: 100px;
     height: 0;
     top:0px;
     background-color:#ff3d1c;
-    width: 60%;
+    width: 80%;
     border-radius: 5;
     opacity: .8;
     left: 0px;
@@ -242,7 +218,7 @@ bottom: 0;
 }
 
 .first-link:hover .overlay-first-link{
-    width: 60%;
+    width: 80%;
     transition: 1s ease-in-out;
 
 }
@@ -473,6 +449,7 @@ padding-bottom: 20px;
     .overlay-service{
         width: 94%;   
     }
+    
 }
 
 @media only screen and (max-width: 1200px){
@@ -518,12 +495,31 @@ padding-bottom: 20px;
         transition: .5s;
     }
  
- 
- 
+     .ml-2{
+margin-left: 0;
+    }
+    .form h2{
+        font-size: 26px;
+     }
     .navbar-brand img{
         width: 90px;
         height: 50px;
     }
+    .navbar-nav .offset-4 ,.contact .offset-2{
+        margin-left: 0;
+    }
+    .contact h2{
+        font-size: 30px;
+    
+    }
+  .form  h1{
+        font-size: 30px;
+    
+    }
+    .footer h2{
+        font-size: 30px;
+    }
+    
 }
 
 /* END HEDER STYLE */
