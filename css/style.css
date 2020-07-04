@@ -391,7 +391,6 @@ padding-bottom: 20px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    font-weight: bold;
 }
 .submit-section:hover .overlay-submit{
     height: 100%;
@@ -402,9 +401,10 @@ padding-bottom: 20px;
     color: #fff;
 }
 .footer{
-    padding: 100px;
+    padding-top: 50px ;
+    padding-bottom: 50px;
     background-image: url(../img/gallery/footer_bg.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     color: #fff;
 }
 .footer p{
@@ -457,7 +457,6 @@ padding-bottom: 20px;
     }
     .lik-container{
         display: block;
-        /* justify-content: space-evenly; */
     }
     .header-li .header-li-link {
         width: 92%;
@@ -508,10 +507,44 @@ margin-left: 0;
     .col-lg-4 .offset-2{
         margin-left: 0;
     }
-  
+    .header-li{
+        width: 100%;
+    }
+    .passion h2{
+        font-size: 20px;
+    }
+  .footer-contain img{
+      width: 100px;
+  }
+  .footer-contain h2{
+      font-size: 12px;
+      margin: 0px;
+
+}
+.socail-link i{
+    margin-left: 0px;
+
+}
+.service-item h3 {
+    font-size: 18px;
+}
+.form img{
+    width: 80%;
+}
+.form input ,.form textarea,.btn-submit{
+    width: 100%;
+}
+.overlay-submit{
+    width: 100%;
+}
+.offset-4{
+    margin-left: 10px;
+}
 }
 
 /* END HEDER STYLE */
 
 
 /* ------------------------------------------------------------------------------------------- CAROSOAL SECTION  */
+
+
